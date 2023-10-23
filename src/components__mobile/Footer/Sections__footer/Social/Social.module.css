@@ -1,0 +1,33 @@
+.list {
+	display: flex;
+	height: 65px;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.list li {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.instagramm {
+	background: url(../../../../images/svg/instagram.svg);
+}
+
+.facebook {
+	background: url(../../../../images/svg/facebook.svg);
+}
+
+.telegram {
+	background: url(../../../../images/svg/telegram.svg);
+}
+
+.whatsup {
+	background: url(../../../../images/svg/whatsup.svg);
+}
+
+.mail {
+	background: url(../../../../images/svg/mail.svg);
+}

@@ -1,0 +1,85 @@
+/* Mersad */
+@font-face {
+    font-family: 'MersadRegular';
+	font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    src: url('/src/fonts/mersad//Mersad-Regular.woff2') format('woff2'),
+         url('/src/fonts/mersad/Mersad-Regular.woff') format('truetype');
+}
+
+@font-face {
+    font-family: 'MersadBold';
+	font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+    src: url('/src/fonts/mersad/Mersad-Bold.woff2') format('woff2'),
+         url('/src/fonts/mersad/Mersad-Bold.woff') format('truetype');
+}
+
+@font-face {
+    font-family: 'MersadMedium';
+	font-style: normal;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+    src: url('/src/fonts/mersad/Mersad-Medium.woff2') format('woff2'),
+         url('/src/fonts/mersad/Mersad-Medium.woff') format('truetype');
+}
+
+@font-face {
+    font-family: 'MersadExtraBold';
+	font-style: normal;
+    font-weight: 800;
+    text-rendering: optimizeLegibility;
+    src: url('/src/fonts/mersad/Mersad-ExtraBold.woff2') format('woff2'),
+         url('/src/fonts/mersad/Mersad-ExtraBold.woff') format('truetype');
+}
+
+@font-face {
+    font-family: 'MersadSemiBold';
+	font-style: normal;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+    src: url('/src/fonts/mersad/Mersad-SemiBold.woff2') format('woff2'),
+         url('/src/fonts/mersad/Mersad-SemiBold.woff') format('truetype');
+}
+
+@font-face {
+    font-family: 'MersadBlack';
+	font-style: normal;
+    font-weight: 900;
+    text-rendering: optimizeLegibility;
+    src: url('/src/fonts/mersad/Mersad-Black.woff2') format('woff2'),
+         url('/src/fonts/mersad/Mersad-Black.woff') format('truetype');
+}
+
+@font-face {
+    font-family: 'MersadExtLt';
+	font-style: normal;
+    font-weight: 200;
+    text-rendering: optimizeLegibility;
+    src: url('/src/fonts/mersad/Mersad-ExtraLight.woff2') format('woff2'),
+         url('/src/fonts/mersad/Mersad-ExtraLight.woff') format('truetype');
+}
+
+/* RockStar */
+@font-face {
+    font-family: 'RockStar-ExtBold';
+	font-style: normal;
+    font-weight: 800;
+    text-rendering: optimizeLegibility;
+    src: url('/src/fonts/rockstar/RockStar-ExtraBold.woff2') format('woff2'),
+         url('/src/fonts/rockstar/RockStar-ExtraBold.woff') format('woff'),
+		 url('/src/fonts/rockstar/RockStar-ExtraBold.ttf') format('truetype');
+}
+
+/* Arial */
+@font-face {
+    font-family: 'Arial';
+	font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    src: url('/src/fonts/arial/arialmt.woff2') format('woff2'),
+         url('/src/fonts/arial/arialmt.woff') format('woff'),
+		 url('/src/fonts/arial/arialmt.ttf') format('truetype');
+}

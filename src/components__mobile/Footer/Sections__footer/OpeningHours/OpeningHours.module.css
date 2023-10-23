@@ -1,0 +1,24 @@
+.text__container {
+	padding: 40px 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: var(--textColor);
+
+	font-family: 'Arial';
+	font-style: normal;
+	font-size: 20px;
+	text-align: center;
+	line-height: 26.5px;
+	letter-spacing: 0.3px;
+	text-transform: capitalize;
+}
+
+.text__container div {
+	padding-bottom: 35px;
+}
+
+
+
+

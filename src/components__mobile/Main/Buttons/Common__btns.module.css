@@ -1,0 +1,13 @@
+.button {
+	background: transparent;
+	color: var(--textColor);
+	width: 360px;
+	height: 96px;
+	flex-shrink: 0;
+	border: 1px solid #ffffff;
+	border-radius: 25px;
+
+	font-family: 'RockStar-ExtBold';
+	font-size: 30px;
+	text-transform: uppercase;
+}

@@ -1,0 +1,16 @@
+.policity {
+	color: var(--textColor);
+	font-size: 14px;
+	text-align: center;
+	font-family: 'Arial';
+	padding-top: 20px;
+	
+}
+
+.list, .item, .rights {
+	padding-bottom: 20px;
+}
+
+.rights {
+	font-size: 12px;
+}
