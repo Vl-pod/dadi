@@ -1,33 +1,50 @@
 .list {
 	display: flex;
-	height: 65px;
-	width: 100%;
+	flex-wrap: nowrap;
 	justify-content: space-between;
+	gap: 5px;
 }
 
-.list li {
-	width: 40px;
-	height: 40px;
+.link {
+	width: 60px;
+  	height: 50px;
+  	display: flex;
+	justify-content: center;
+  	background-position: center top;
 	background-repeat: no-repeat;
-	background-position: center center;
 }
 
-.instagramm {
-	background: url(../../../../images/svg/instagram.svg);
+.hidden {
+	width: 1px;
+  	height: 1px;
+ 	clip: rect(1px, 1px, 1px, 1px);
+  	position: absolute;
+}
+
+.text__under {
+	color: var(--textColor);
+	font-family: 'MersadExtraBold';
+	font-size: 9px;
+	text-transform: uppercase;
+	align-self: flex-end;
+}
+
+.instagram {
+	background-image: url(../../../../images/svg/instagram.svg);
 }
 
 .facebook {
-	background: url(../../../../images/svg/facebook.svg);
+	background-image: url(../../../../images/svg/facebook.svg);
 }
 
 .telegram {
-	background: url(../../../../images/svg/telegram.svg);
+	background-image: url(../../../../images/svg/telegram.svg);
 }
 
 .whatsup {
-	background: url(../../../../images/svg/whatsup.svg);
+	background-image: url(../../../../images/svg/whatsup.svg);
 }
 
 .mail {
-	background: url(../../../../images/svg/mail.svg);
+	background-image: url(../../../../images/svg/mail.svg);
 }
